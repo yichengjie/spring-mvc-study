@@ -1,6 +1,6 @@
 package com.yicj.study.config;
 
-import com.yicj.study.controller.MyHttpRequestHandler;
+import com.yicj.study.controller.controllersupport.MyHttpRequestHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
