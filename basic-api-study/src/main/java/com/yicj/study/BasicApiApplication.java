@@ -13,7 +13,7 @@ public class BasicApiApplication {
         SpringApplication.run(BasicApiApplication.class, args) ;
     }
 
-    @GetMapping
+    @GetMapping("hello")
     public String hello(){
         return "hello world" ;
     }
