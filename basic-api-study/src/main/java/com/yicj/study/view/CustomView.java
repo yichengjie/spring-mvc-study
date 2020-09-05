@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
+//该解析方式是通过BeanNameViewResolver执行的，这种方式要求申请的Bean类型为View接口的实现
 @Component("beanNameViewBean")
 public class CustomView implements View {
 
