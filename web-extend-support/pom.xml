@@ -12,6 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>cors-request</module>
+        <module>webscoket-api</module>
     </modules>
 
 

@@ -28,6 +28,12 @@ public class HomeController {
         return "CORS TEST" ;
     }
 
+
+    @PutMapping("myComplexCors2")
+    public String myComplexCors2(){
+        return "CORS TEST" ;
+    }
+
     @GetMapping("/cookie")
     public String cookie(HttpServletResponse response){
         Cookie cookie = new Cookie("testcookies1", "helloworld") ;
