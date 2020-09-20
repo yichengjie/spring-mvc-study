@@ -26,6 +26,7 @@
 
     <modules>
         <module>basic-api-study</module>
+        <module>web-extend-support</module>
     </modules>
     <packaging>pom</packaging>
 
