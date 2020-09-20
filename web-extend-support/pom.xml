@@ -13,6 +13,7 @@
     <modules>
         <module>cors-request</module>
         <module>webscoket-api</module>
+        <module>async-request</module>
     </modules>
 
 
